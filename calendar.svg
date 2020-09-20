@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" class="js-calendar-graph-svg">
-	<g transform="translate(10, 20)" width="722" height="112" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:28227097,&quot;target&quot;:&quot;CONTRIBUTION_CALENDAR_SQUARE&quot;,&quot;user_id&quot;:28227097,&quot;originating_url&quot;:&quot;https://github.com/BrunoBlanes&quot;}}" data-hydro-click-hmac="1dc6144b38aec272260d7c4e2d7827efad00d6b333b44be4c9a7eb83ce1d3a35">
+<svg xmlns="http://www.w3.org/2000/svg" width="722" height="128" class="js-calendar-graph-svg">
+	<g transform="translate(10, 20)" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:28227097,&quot;target&quot;:&quot;CONTRIBUTION_CALENDAR_SQUARE&quot;,&quot;user_id&quot;:28227097,&quot;originating_url&quot;:&quot;https://github.com/BrunoBlanes&quot;}}" data-hydro-click-hmac="1dc6144b38aec272260d7c4e2d7827efad00d6b333b44be4c9a7eb83ce1d3a35">
 		<g transform="translate(0, 0)">
 			<rect class="day" width="10" height="10" x="14" y="0" fill="#ebedf0" data-count="0" data-date="2019-09-15"></rect>
 			<rect class="day" width="10" height="10" x="14" y="13" fill="#ebedf0" data-count="0" data-date="2019-09-16"></rect>
