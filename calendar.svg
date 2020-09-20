@@ -496,4 +496,66 @@
 		<text text-anchor="start" class="wday" dx="-10" dy="73">Fri</text>
 		<text text-anchor="start" class="wday" dx="-10" dy="81" style="display: none;">Sat</text>
 	</g>
+
+	<style>
+		.wday {
+			font-size: 9px;
+			fill: #767676;
+			box-sizing: border-box;
+			text-anchor: start;
+			transform-origin: 0px 0px;
+			display: block;
+			white-space: nowrap;
+			text-align: center!important;
+			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+			line-height: 1.5;
+			color: #24292e;
+			background-color: #fff;
+		}
+
+		.month {
+			font-size: 10px;
+			fill: #767676;
+			box-sizing: border-box;
+			transform-origin: 0px 0px;
+			display: block;
+			white-space: nowrap;
+			text-align: center!important;
+			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+			line-height: 1.5;
+			color: #24292e;
+			background-color: #fff;
+		}
+
+		.day {
+			shape-rendering: geometricPrecision;
+			outline: 1px solid rgba(27,31,35,.04);
+			outline-offset: -1px;
+			rx: 2;
+			ry: 2;
+			box-sizing: border-box;
+			width: 10;
+			height: 10;
+			transform-origin: 0px 0px;
+			text-align: center!important;
+			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+			font-size: 14px;
+			line-height: 1.5;
+			color: #24292e;
+			background-color: #fff;
+		}
+
+		.js-calendar-graph-svg {
+			overflow: hidden;
+			box-sizing: border-box;
+			width: 722;
+			height: 112;
+			text-align: center!important;
+			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+			font-size: 14px;
+			line-height: 1.5;
+			color: #24292e;
+			background-color: #fff;
+		}
+	</style>
 </svg>
