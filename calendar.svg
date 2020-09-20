@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="722" height="112" class="js-calendar-graph-svg">
+<svg xmlns="http://www.w3.org/2000/svg" class="js-calendar-graph-svg">
 	<g transform="translate(10, 20)" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:28227097,&quot;target&quot;:&quot;CONTRIBUTION_CALENDAR_SQUARE&quot;,&quot;user_id&quot;:28227097,&quot;originating_url&quot;:&quot;https://github.com/BrunoBlanes&quot;}}" data-hydro-click-hmac="1dc6144b38aec272260d7c4e2d7827efad00d6b333b44be4c9a7eb83ce1d3a35">
 		<g transform="translate(0, 0)">
 			<rect class="day" width="10" height="10" x="14" y="0" fill="#ebedf0" data-count="0" data-date="2019-09-15"></rect>
@@ -475,6 +475,17 @@
 			<rect class="day" width="10" height="10" x="-38" y="26" fill="#ebedf0" data-count="0" data-date="2020-09-15"></rect>
 			<rect class="day" width="10" height="10" x="-38" y="39" fill="#ebedf0" data-count="0" data-date="2020-09-16"></rect>
 		</g>
+	
+		<g transform="translate(630, 98)">
+			<text text-anchor="start" class="footer" x="-58" y="9">Less</text>
+			<rect class="day" width="10" height="10" x="-31" y="0" fill="#ebedf0"></rect>
+			<rect class="day" width="10" height="10" x="-18" y="0" fill="#9be9a8"></rect>
+			<rect class="day" width="10" height="10" x="-5" y="0" fill="#40c463"></rect>
+			<rect class="day" width="10" height="10" x="8" y="0" fill="#30a14e"></rect>
+			<rect class="day" width="10" height="10" x="21" y="0" fill="#216e39"></rect>
+			<text text-anchor="start" class="footer" x="38" y="9">More</text>
+		</g>
+		
 		<text x="14" y="-7" class="month">Sep</text>
 		<text x="53" y="-7" class="month">Oct</text>
 		<text x="105" y="-7" class="month">Nov</text>
@@ -510,7 +521,6 @@
 			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 			line-height: 1.5;
 			color: #24292e;
-			background-color: #fff;
 		}
 
 		.month {
@@ -524,7 +534,6 @@
 			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 			line-height: 1.5;
 			color: #24292e;
-			background-color: #fff;
 		}
 
 		.day {
@@ -542,7 +551,6 @@
 			font-size: 14px;
 			line-height: 1.5;
 			color: #24292e;
-			background-color: #fff;
 		}
 
 		.js-calendar-graph-svg {
@@ -555,7 +563,16 @@
 			font-size: 14px;
 			line-height: 1.5;
 			color: #24292e;
-			background-color: transparent;
+		}
+		
+		.footer {
+			float: right;
+			color: #586069!important;
+			box-sizing: border-box;
+			padding: 0 10px 12px;
+			font-size: 11px;
+			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+			line-height: 1.5;
 		}
 	</style>
 </svg>
